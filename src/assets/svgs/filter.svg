@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Filter-LoFi_20px" clip-path="url(#clip-path)">
+    <rect id="Rectangle_6" data-name="Rectangle 6" width="20" height="20" transform="translate(0 0)" fill="none"/>
+    <g id="Glyph">
+      <g id="Group_32" data-name="Group 32">
+        <path id="Path_105" data-name="Path 105" d="M20.667,0c-4.816,0-10,.816-10,2.609,0,.4.321.684.719,1.05a79.053,79.053,0,0,1,5.9,7.41,2.972,2.972,0,0,1,.651,1.844V18.7c0,.9,1.413,1.3,2.727,1.3s2.727-.408,2.727-1.3V12.913a2.956,2.956,0,0,1,.493-1.609H27.03a1.82,1.82,0,0,0,1.626-.961l.909-1.74a1.662,1.662,0,0,0-.08-1.692A1.819,1.819,0,0,0,28.007,6.1a26,26,0,0,1,1.941-2.437c.4-.366.719-.651.719-1.05C30.667.816,25.483,0,20.667,0ZM27.03,9.565H25.243l1.385-1.739h1.311ZM20.667,3.478a25.861,25.861,0,0,1-7.432-.87,25.862,25.862,0,0,1,7.432-.87,25.861,25.861,0,0,1,7.432.87A25.862,25.862,0,0,1,20.667,3.478Z" transform="translate(-10.667 0)" fill="#424242"/>
+      </g>
+    </g>
+  </g>
+</svg>

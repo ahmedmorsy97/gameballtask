@@ -1,0 +1,118 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  width: 300px;
+  height: 100%;
+  background-color: #f6f6f6;
+
+  box-sizing: border-box;
+  padding: 20px 40px;
+  padding-bottom: 80px;
+}
+
+.sidebar::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 100%;
+  background-color: #fff;
+
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.sidebar .upperPart {
+}
+
+.sidebar .upperPart .logo {
+  width: 100%;
+  margin-bottom: 110px;
+}
+
+.sidebar .upperPart .logo img {
+  width: 70%;
+}
+
+.sidebar .navBtns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar .navBtns .navBtn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.sidebar .navBtns .navBtn.active {
+  position: relative;
+}
+
+.sidebar .navBtns .navBtn.active::after {
+  content: "";
+  position: absolute;
+  left: -40px;
+  width: 5px;
+  height: 100%;
+  background-color: #256eff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sidebar .navBtns .navBtn:focus {
+  outline: none;
+}
+
+.sidebar .navBtns .navBtn img {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.sidebar .navBtns .navBtn p {
+  font-size: 19px;
+}
+
+.sidebar .lowerPart {
+}
+
+.sidebar .lowerPart .accountInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar .lowerPart .accountInfo .profilePic {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar .lowerPart .accountInfo .profilePic img {
+  margin-right: 10px;
+}
+
+.sidebar .lowerPart .accountInfo .info p.name {
+  margin: 0;
+}
+
+.sidebar .lowerPart .accountInfo .info a {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.sidebar .lowerPart .accountInfo .info a:hover {
+  opacity: 0.5;
+}

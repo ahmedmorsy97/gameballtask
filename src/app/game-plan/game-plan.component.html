@@ -1,0 +1,105 @@
+<div class="gameballview">
+  <!-- header part -->
+  <div class="header">
+    <p class="title">Game Plan</p>
+    <div class="accountInfo">
+      <img src="../../../assets/svgs/accountLogo.svg" alt="user logo" />
+      <div class="info">
+        <p>Account Switcher</p>
+        <a>
+          <p>Category 99</p>
+          <img src="../../../assets/svgs/down.svg" alt="down arrow" />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- tabs -->
+  <div class="tabsBtns">
+    <button class="tabsBtn" (click)="setTabName('levels')"
+      [class]="activeTab === 'levels' ? 'active' : ''">Levels</button>
+    <button class="tabsBtn" (click)="setTabName('challenges')"
+      [class]="activeTab === 'challenges' ? 'active' : ''">Challenges</button>
+    <button class="tabsBtn" (click)="setTabName('quests')"
+      [class]="activeTab === 'quests' ? 'active' : ''">Quests</button>
+  </div>
+
+  <!-- tab filters -->
+  <div class="filtersHolder">
+
+    <div class="filters">
+      <div class="filter">
+        <img src="../../assets/svgs/filter.svg" alt="Filter logo" />
+        <p>Filter</p>
+        <img class="arrow" src="../../../assets/svgs/down.svg" alt="down arrow" />
+      </div>
+
+      <div class="filter">
+        <img src="../../assets/svgs/sort.svg" alt="Sort logo" />
+        <p>Sort</p>
+        <img class="arrow" src="../../../assets/svgs/down.svg" alt="down arrow" />
+      </div>
+    </div>
+
+    <div class="filter">
+      <img src="../../assets/svgs/search.svg" alt="Search logo" />
+      <p>Search</p>
+    </div>
+
+  </div>
+
+  <!-- tabs view -->
+  <div class="tabView">
+
+    <div class="challenges">
+      <p class="numberOfChallenges">4 Challenges</p>
+      <button>
+        <p>Create New Challenge</p>
+        <img src="../../assets/svgs/add.svg" alt="add icon" />
+      </button>
+    </div>
+
+    <!-- challenges -->
+    <div class="challengeCards">
+      <div class="challengeCard" *ngFor="let card of tabContentcards">
+        <div [class]=" card.isActive? 'showactive active' :'showactive'">
+          <p>{{!card.isActive? "inactive" : "active"}}</p>
+          <div class="circle"></div>
+        </div>
+        <div class="name">
+          <img src="../../assets/svgs/challengeAvatar.svg" alt="challenge logo" />
+          <div class="data">
+            <p>{{card.title}}</p>
+            <p class="date">{{card.date}}</p>
+          </div>
+        </div>
+        <p class="info">
+          {{card.desc}}
+        </p>
+        <div class="achivements">
+
+          <div class="achivement">
+            <img src="../../assets/svgs/diamond.svg" alt="diamond logo" />
+            <p>{{card.diamond}}</p>
+          </div>
+
+          <div class="achivement">
+            <img src="../../assets/svgs/star.svg" alt="star logo" />
+            <p>{{card.star}}</p>
+          </div>
+
+          <div class="achivement">
+            <img src="../../assets/svgs/flag.svg" alt="flag logo" />
+            <p>{{card.flag}}</p>
+          </div>
+
+          <div class="achivement tag">
+            <img src="../../assets/svgs/tag.svg" alt="tag logo" />
+            <p>{{card.tag}}</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

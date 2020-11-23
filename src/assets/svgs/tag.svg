@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="14" height="14" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Tag_LoFi-XS" clip-path="url(#clip-path)">
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="14" height="14" fill="none"/>
+    <g id="tag" transform="translate(1 1)">
+      <g id="Group_36" data-name="Group 36">
+        <path id="Path_112" data-name="Path 112" d="M11.927,6.573,5.866.513A1.739,1.739,0,0,0,4.629,0H1A1,1,0,0,0,0,1V4.629A1.739,1.739,0,0,0,.513,5.866l6.061,6.061a.25.25,0,0,0,.419-.116l.964-3.854,3.854-.964a.25.25,0,0,0,.116-.419Z" fill="none" stroke="#424242" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

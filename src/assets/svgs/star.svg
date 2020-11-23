@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Points_HiFi-S" clip-path="url(#clip-path)">
+    <g id="Group_29" data-name="Group 29" transform="translate(-396 -411)">
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="20" height="20" transform="translate(396 411)" fill="none"/>
+      <g id="Glyph" transform="translate(397 413)">
+        <g id="Group_27" data-name="Group 27" transform="translate(0)">
+          <path id="Path_80" data-name="Path 80" d="M13.856,17a.761.761,0,0,1-.409-.119L8.99,14.059,4.554,16.867a.774.774,0,0,1-.856-.026.82.82,0,0,1-.32-.823l1.028-5.29L.284,7.2a.821.821,0,0,1-.243-.877.78.78,0,0,1,.695-.554l5.5-.353L8.282.489A.781.781,0,0,1,9,0a.394.394,0,0,1,.144.027A.785.785,0,0,1,9.72.5L11.77,5.424l5.5.353a.783.783,0,0,1,.7.556.819.819,0,0,1-.244.874L13.6,10.742l1.028,5.289a.82.82,0,0,1-.323.825A.752.752,0,0,1,13.856,17Z" transform="translate(-0.001)" fill="#303c42"/>
+          <path id="Path_81" data-name="Path 81" d="M448.362,164.466h0Z" transform="translate(-431.166 -157.913)" fill="#303c42"/>
+        </g>
+        <path id="Path_82" data-name="Path 82" d="M28.673,22.17l-2.1,5.1a.41.41,0,0,1-.35.255l-5.746.37,4.33,3.623a.435.435,0,0,1,.141.412l-1.077,5.539,4.608-2.994a.4.4,0,0,1,.413-.008.433.433,0,0,1,.087.068l4.585,2.9-1.129-5.495a.435.435,0,0,1,.141-.412l4.234-3.63-5.65-.363a.41.41,0,0,1-.35-.255Z" transform="translate(-19.687 -21.287)" fill="#ffcf48"/>
+        <path id="Path_83" data-name="Path 83" d="M236.031,27.36c-.018-.025-.045-.043-.057-.073l-2.132-5.117-.018,7.63Z" transform="translate(-224.856 -21.287)" opacity="0.1"/>
+        <path id="Path_84" data-name="Path 84" d="M237.664,169.874a.413.413,0,0,1,.077-.114l4.234-3.63-8.151,1.894Z" transform="translate(-224.856 -159.511)" opacity="0.1"/>
+        <path id="Path_85" data-name="Path 85" d="M233.841,218.282a.394.394,0,0,1,.214.052.436.436,0,0,1,.087.068l4.585,2.9-4.9-7.642Z" transform="translate(-224.855 -205.149)" opacity="0.1"/>
+        <path id="Path_86" data-name="Path 86" d="M109.988,215.5a.426.426,0,0,1,.065.3l-1.077,5.539,4.788-7.674Z" transform="translate(-104.798 -205.148)" opacity="0.1"/>
+        <path id="Path_87" data-name="Path 87" d="M26.5,152.43a.4.4,0,0,1-.283.17l-5.747.369,8.183,1.9Z" transform="translate(-19.686 -146.357)" opacity="0.1"/>
+      </g>
+    </g>
+  </g>
+</svg>

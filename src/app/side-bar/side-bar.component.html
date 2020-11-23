@@ -1,0 +1,26 @@
+<div class="sidebar">
+  <div class="upperPart">
+    <div class="logo">
+      <img src="https://www.gameball.co/wp-content/uploads/2019/02/gameball-logo2x.png" alt="gameball logo" />
+    </div>
+    <div class="navBtns">
+      <div *ngFor="let btn of btns; index as i" >
+        <button class="navBtn"  (click)="chooseTab(btn.name)" [class]="btn.name === activeBtn ? 'active' :''">
+          <img [src]="btn.img.src" [alt]="btn.img.alt" />
+          <p>{{btn.title}}</p>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="lowerPart">
+    <div class="accountInfo">
+      <div class="profilePic">
+        <img src="../../assets/svgs/avatar.svg" alt="user logo" />
+      </div>
+      <div class="info">
+        <p class="name">Hello, Anne!</p>
+        <a>Account Settings</a>
+      </div>
+    </div>
+  </div>
+</div>

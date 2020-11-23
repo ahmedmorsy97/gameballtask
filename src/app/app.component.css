@@ -1,0 +1,17 @@
+.gameball {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.gameball .side {
+  width: 300px;
+}
+
+.gameball .main {
+  width: calc(100% - 300px);
+  padding: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}

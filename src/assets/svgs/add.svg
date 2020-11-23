@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_Add-LoFi_20px" clip-path="url(#clip-path)">
+    <rect id="Boundary" width="20" height="20" fill="none"/>
+    <g id="Glyph">
+      <g id="Group_52" data-name="Group 52">
+        <path id="Path_170" data-name="Path 170" d="M10,0A10,10,0,1,0,20,10,10.011,10.011,0,0,0,10,0Zm5.833,10.417a.416.416,0,0,1-.417.417H10.833v4.583a.416.416,0,0,1-.417.417H9.583a.416.416,0,0,1-.417-.417V10.833H4.583a.416.416,0,0,1-.417-.417V9.583a.416.416,0,0,1,.417-.417H9.167V4.583a.416.416,0,0,1,.417-.417h.833a.416.416,0,0,1,.417.417V9.167h4.583a.416.416,0,0,1,.417.417Z" fill="#256eff"/>
+      </g>
+    </g>
+  </g>
+</svg>

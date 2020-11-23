@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="20" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-2.465" y1="6.011" x2="-2.424" y2="5.972" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.102"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="icon_Milestones_HiFi-S" clip-path="url(#clip-path)">
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="20" height="20" fill="none"/>
+    <g id="Glyph" transform="translate(-101.666 1)">
+      <path id="Path_108" data-name="Path 108" d="M116.411,3.016,109.523.846V.375a.358.358,0,1,0-.714,0v16.13c-2.139.05-2.143.55-2.143.745s0,.75,2.5.75,2.5-.545,2.5-.75,0-.695-2.143-.745V5.9l6.888-2.17a.381.381,0,0,0,0-.719Z" fill="#303c42"/>
+      <path id="Path_109" data-name="Path 109" d="M192,49.829V46.337l5.543,1.746Z" transform="translate(-82.477 -44.708)" fill="#e7633f"/>
+      <path id="Path_110" data-name="Path 110" d="M192,97.746V96h5.543Z" transform="translate(-82.477 -92.625)" opacity="0.1"/>
+      <path id="Path_111" data-name="Path 111" d="M193.065,46.673,192,46.337v3.492l3.132-.987Z" transform="translate(-82.477 -44.708)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

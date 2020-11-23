@@ -1,0 +1,278 @@
+.gameballview {
+  display: flex;
+  flex-direction: column;
+}
+
+/* header */
+.gameballview .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.gameballview .header p.title {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.gameballview .header .accountInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gameballview .header .accountInfo img {
+  margin-right: 10px;
+}
+
+.gameballview .header .accountInfo .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameballview .header .accountInfo .info p {
+  margin: 0;
+  font-size: 10px;
+}
+
+.gameballview .header .accountInfo .info a {
+  display: flex;
+  cursor: pointer;
+}
+
+.gameballview .header .accountInfo .info a p {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* tabs */
+.gameballview .tabsBtns {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.gameballview .tabsBtns button {
+  background-color: transparent;
+  margin-right: 10px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.gameballview .tabsBtns button:focus {
+  outline: none;
+}
+
+.gameballview .tabsBtns button.active {
+  color: #256eff;
+  position: relative;
+}
+
+.gameballview .tabsBtns button.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 10px);
+  height: 2px;
+  background-color: #256eff;
+}
+
+/* filters */
+
+.gameballview .filtersHolder {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  padding: 15px;
+  padding-right: 0;
+
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.gameballview .filtersHolder .filters {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.gameballview .filtersHolder .filter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 15px;
+
+  cursor: pointer;
+}
+
+.gameballview .filtersHolder .filter p {
+  margin: 0 8px;
+}
+
+.gameballview .filtersHolder .filter img {
+  width: 18px;
+}
+
+.gameballview .filtersHolder .filter img.arrow {
+  width: 12px;
+}
+
+/* tab view */
+.gameballview .tabView {
+  display: flex;
+  flex-direction: column;
+}
+
+.gameballview .tabView .challenges {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.gameballview .tabView .challenges p.numberOfChallenges {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+}
+
+.gameballview .tabView .challenges button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #256eff;
+  font-weight: bold;
+}
+
+.gameballview .tabView .challenges button:focus {
+  outline: none;
+}
+
+.gameballview .tabView .challenges button p {
+  margin: 0;
+  margin-right: 5px;
+}
+
+/* challenge card */
+.gameballview .tabView .challengeCards {
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+
+.gameballview .tabView .challengeCards .challengeCard {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  width: calc(33.33333% - 20px);
+  min-width: 280px;
+
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .showactive {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .showactive p {
+  margin: 0;
+  margin-top: 2px;
+  margin-right: 5px;
+  color: #a9abb2;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .showactive .circle {
+  width: 10px;
+  height: 10px;
+  background-color: #a9abb2;
+  border-radius: 50%;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .active p {
+  color: green;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .active .circle {
+  background-color: green;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .name img {
+  margin-right: 10px;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .name p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .name p.date {
+  font-size: 12px;
+}
+
+.gameballview .tabView .challengeCards .challengeCard p.info {
+  color: #a9abb2;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .achivements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .achivements .achivement {
+  min-width: 45%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 8px;
+}
+
+.gameballview
+  .tabView
+  .challengeCards
+  .challengeCard
+  .achivements
+  .achivement
+  img {
+  margin-right: 5px;
+}
+.gameballview
+  .tabView
+  .challengeCards
+  .challengeCard
+  .achivements
+  .achivement
+  p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.gameballview .tabView .challengeCards .challengeCard .achivements .tag {
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
+.gameballview .tabView .challengeCards .challengeCard .achivements .tag p {
+  font-size: 13px;
+}
