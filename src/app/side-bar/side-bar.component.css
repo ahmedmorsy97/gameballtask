@@ -41,6 +41,10 @@
   width: 70%;
 }
 
+.sidebar .upperPart .logo img.responsive {
+  display: none;
+}
+
 .sidebar .navBtns {
   display: flex;
   flex-direction: column;
@@ -115,4 +119,40 @@
 
 .sidebar .lowerPart .accountInfo .info a:hover {
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 650px) {
+  .sidebar {
+    padding: 20px 10px;
+    padding-bottom: 80px;
+    width: 60px;
+  }
+  .sidebar::after {
+    width: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .sidebar .navBtns .navBtn p {
+    display: none;
+  }
+  .sidebar .lowerPart .accountInfo .info {
+    display: none;
+  }
+  .sidebar .navBtns .navBtn img {
+    margin: 0;
+    margin: 10px 0;
+  }
+  .sidebar .navBtns .navBtn.active::after {
+    left: -10px;
+  }
+  .sidebar .navBtns .navBtn {
+    padding-left: 0;
+  }
+
+  .sidebar .upperPart .logo img {
+    display: none;
+  }
+  .sidebar .upperPart .logo img.responsive {
+    display: block;
+  }
 }

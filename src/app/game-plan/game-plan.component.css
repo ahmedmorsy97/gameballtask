@@ -276,3 +276,10 @@
 .gameballview .tabView .challengeCards .challengeCard .achivements .tag p {
   font-size: 13px;
 }
+
+@media only screen and (max-width: 650px) {
+  .gameballview .tabView .challengeCards .challengeCard {
+    margin-right: 0;
+    width: 100%;
+  }
+}
